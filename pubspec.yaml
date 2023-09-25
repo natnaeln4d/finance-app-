@@ -1,0 +1,28 @@
+name: flutter_application_1
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  syncfusion_flutter_charts: ^23.1.36
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/images/Transfer.png
+    - assets/images/up.png
+    - assets/images/star.png
+
+  uses-material-design: true
+  
